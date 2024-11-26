@@ -1,6 +1,7 @@
 '''
 파일명: Ex02-9-mutable-immutable.py
 
+
 데이터 타입의 가변성
     mutable: 객체 생성 후 내용 변경 가능
             값 변경 시 메모리 주소 유지
@@ -21,7 +22,7 @@ print('메모리 주소:', id(pokemon))
 
 # 2. immutable 예제
 level = 25
-print('levle:', level)
+print('level:', level)
 print('메모리 주소:', id(level))
 
 level = level + 1
@@ -32,7 +33,7 @@ age = 25
 print('age:', age)
 print('메모리 주소:', id(age))
 '''
-리터럴(Literal) = 소스코드에 고정된 값
+리터럴(Literal) = 소스 코드에 고정된 값
 ex)
 25 # 정수 리터럴
 3.14 # 실수 리터럴
@@ -49,3 +50,4 @@ print('메모리 주소:',id(tuple1))
 tuple1 = ('리스트', 'go', 'React')
 print('tuple1:', tuple1)
 print('메모리 주소:', id(tuple1))
+

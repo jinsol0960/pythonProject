@@ -8,6 +8,7 @@
 
 '''
 from copyreg import remove_extension
+from idlelib.configdialog import help_pages
 
 # 1. 세트 생성과 기본 기능
 pokemon_type = {'불꽃','물','전기','풀'}
@@ -53,7 +54,6 @@ print('pop 후:', water_type)
 new_type = {'메가이브이', '뮤'}
 new_type.clear() #전체 제거
 print('clear 후', new_type)
-
 
 
 
